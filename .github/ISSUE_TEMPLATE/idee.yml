@@ -1,0 +1,32 @@
+name: 💡 Idee vorschlagen / Suggest an idea
+description: Neue Blöcke, Tiere, Strecken, Spiele … / New blocks, animals, tracks, games …
+title: "[Idee] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Wir freuen uns über jede Idee! Bitte keine persönlichen Daten angeben, alles hier ist öffentlich.
+        We love new ideas! Please don't post personal data, everything here is public.
+  - type: dropdown
+    id: was
+    attributes:
+      label: Für welche Mod oder welches Spiel? / For which mod or game?
+      options:
+        - Wuddler One
+        - Wuddler Nature
+        - Wuddler Lorenrennen
+        - Wuddler Flitzkiste
+        - Wuddler Flugrennen
+        - Spiel auf wuddler.com / Game on wuddler.com
+        - Etwas anderes / Something else
+        - Ganz neue Mod / A brand new mod
+    validations:
+      required: true
+  - type: textarea
+    id: idee
+    attributes:
+      label: Deine Idee / Your idea
+      description: Was soll es geben, und wie soll es funktionieren? / What should exist, and how should it work?
+    validations:
+      required: true
