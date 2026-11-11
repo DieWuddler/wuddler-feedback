@@ -1,0 +1,60 @@
+name: 🐞 Fehler melden / Report a bug
+description: Etwas funktioniert nicht oder stürzt ab. / Something is broken or crashes.
+title: "[Fehler] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du hilfst! Bitte keine persönlichen Daten angeben, alles hier ist öffentlich.
+        Thanks for helping! Please don't post personal data, everything here is public.
+  - type: dropdown
+    id: was
+    attributes:
+      label: Welche Mod oder welches Spiel? / Which mod or game?
+      options:
+        - Wuddler One
+        - Wuddler Nature
+        - Wuddler Lorenrennen
+        - Wuddler Flitzkiste
+        - Wuddler Flugrennen
+        - Spiel auf wuddler.com / Game on wuddler.com
+        - Etwas anderes / Something else
+    validations:
+      required: true
+  - type: dropdown
+    id: loader
+    attributes:
+      label: Mod-Loader (nur bei Mods) / Mod loader (mods only)
+      options:
+        - NeoForge
+        - Fabric
+        - Weiß nicht / Don't know
+        - Kein Mod / Not a mod
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Steht im Dateinamen, z. B. wuddler-one-neoforge-1.0.0+mc1.21.1.jar / Found in the file name
+      placeholder: 1.0.0
+  - type: textarea
+    id: fehler
+    attributes:
+      label: Was ist passiert? / What happened?
+      description: Was hast du gemacht, und was ist dann passiert? / What did you do, and what happened?
+    validations:
+      required: true
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Was hättest du erwartet? / What did you expect?
+  - type: textarea
+    id: log
+    attributes:
+      label: Absturzbericht oder Log (falls vorhanden) / Crash report or log (if any)
+      description: Aus dem Ordner crash-reports oder logs/latest.log. Einfach hineinkopieren. / From crash-reports or logs/latest.log.
+      render: text
+  - type: textarea
+    id: andere
+    attributes:
+      label: Andere Mods (falls vorhanden) / Other mods (if any)
