@@ -19,6 +19,7 @@ body:
         - Wuddler Flitzkiste
         - Wuddler Flugrennen
         - Spiel auf wuddler.com / Game on wuddler.com
+        - Skin-Werkzeug auf wuddler.com (Werkstatt, Skinzauber, Pixelwurf) / Skin tool on wuddler.com (Workshop, Skin Magic, Pixel Mole)
         - Etwas anderes / Something else
     validations:
       required: true
@@ -58,3 +59,10 @@ body:
     id: andere
     attributes:
       label: Andere Mods (falls vorhanden) / Other mods (if any)
+  - type: checkboxes
+    id: einverstanden
+    attributes:
+      label: Nutzung / Usage
+      options:
+        - label: Ich bin einverstanden, dass Die Wuddler meinen Beitrag kostenlos nutzen, verändern und veröffentlichen dürfen. Es gibt keinen Anspruch auf Umsetzung, Bezahlung oder Nennung. / I agree that Die Wuddler may use, change and publish my contribution for free. There is no claim to it being built, paid for or credited.
+          required: true
