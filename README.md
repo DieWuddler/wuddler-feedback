@@ -1,7 +1,7 @@
 # Wuddler Feedback
 
 Hier könnt ihr **Fehler melden** und **Ideen vorschlagen** für alles von Die Wuddler:
-die Minecraft-Mods (Wuddler One, Wuddler Nature, die Renn-Mods) und die Spiele auf [wuddler.com](https://wuddler.com).
+die Minecraft-Mods (Wuddler One, Wuddler Nature, die Renn-Mods) und die Spiele und Skin-Werkzeuge auf [wuddler.com](https://wuddler.com).
 
 👉 [**Neue Meldung erstellen**](https://github.com/DieWuddler/wuddler-feedback/issues/new/choose)
 
@@ -15,7 +15,7 @@ Den Quellcode der Mods findest du hier nicht, dieses Repo ist nur für Rückmeld
 
 ## English
 
-Report **bugs** and suggest **ideas** for everything by Die Wuddler: the Minecraft mods (Wuddler One, Wuddler Nature, the racing mods) and the games on [wuddler.com](https://wuddler.com).
+Report **bugs** and suggest **ideas** for everything by Die Wuddler: the Minecraft mods (Wuddler One, Wuddler Nature, the racing mods) and the games and skin tools on [wuddler.com](https://wuddler.com).
 
 👉 [**Create a new report**](https://github.com/DieWuddler/wuddler-feedback/issues/new/choose)
 
