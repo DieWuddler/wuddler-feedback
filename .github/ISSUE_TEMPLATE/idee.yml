@@ -31,3 +31,10 @@ body:
       description: Was soll es geben, und wie soll es funktionieren? / What should exist, and how should it work?
     validations:
       required: true
+  - type: checkboxes
+    id: einverstanden
+    attributes:
+      label: Nutzung / Usage
+      options:
+        - label: Ich bin einverstanden, dass Die Wuddler meinen Beitrag kostenlos nutzen, verändern und veröffentlichen dürfen. Es gibt keinen Anspruch auf Umsetzung, Bezahlung oder Nennung. / I agree that Die Wuddler may use, change and publish my contribution for free. There is no claim to it being built, paid for or credited.
+          required: true
